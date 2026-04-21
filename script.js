@@ -214,21 +214,9 @@ gsap.from('.cert-card', {
   stagger: { each: 0.1, from: 'center' }, ease: 'back.out(1.4)'
 });
 
-// ── Contact section ──
-gsap.from('.contact-info > *', {
-  scrollTrigger: { trigger: '.contact-grid', start: 'top 80%' },
-  x: -40, opacity: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out'
-});
-gsap.from('.contact-form > *', {
-  scrollTrigger: { trigger: '.contact-grid', start: 'top 80%' },
-  x: 40, opacity: 0, duration: 0.6, stagger: 0.1, ease: 'power3.out'
-});
 
-// ── Footer ──
-gsap.from('.social-links a', {
-  scrollTrigger: { trigger: 'footer', start: 'top 90%' },
-  y: 20, opacity: 0, duration: 0.5, stagger: 0.08, ease: 'back.out(2)'
-});
+
+
 
 // ══════════════════════════════════════
 //  6. SMOOTH NAV SCROLL (GSAP ScrollTo)
