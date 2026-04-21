@@ -170,10 +170,11 @@ button, input, textarea { cursor: none; }
 
 /* ── Buttons ── */
 .btn {
-  display: inline-flex; align-items: center; gap: 8px; padding: 14px 32px;
+  display: inline-flex !important; align-items: center; gap: 8px; padding: 14px 32px;
   border-radius: 50px; font-size: .9rem; font-weight: 600;
   transition: var(--transition); cursor: none; border: none;
   position: relative; overflow: hidden;
+  opacity: 1 !important; visibility: visible !important;
 }
 .btn::before {
   content: ''; position: absolute; top: 50%; left: 50%;
